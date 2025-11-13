@@ -173,7 +173,7 @@ class SystemController extends ApiControllerBase
             $fc = $mem['vm.stats.vm.v_free_count'];
             $result['memory']['total'] = $mem['hw.physmem'];
             $result['memory']['total_frmt'] = sprintf('%d', $mem['hw.physmem'] / 1024 / 1024);
-            $result['memory']['used'] = round(((($pc - ($ic + $cc + $fc))) / $pc) * $mem['hw.physmem'], 0);
+            $result['memory']['used'] = round(((($pc - ($cc + $fc))) / $pc) * $mem['hw.physmem'], 0);
             $result['memory']['used_frmt'] = sprintf('%d', $result['memory']['used'] / 1024 / 1024);
             if (!empty($mem['kstat.zfs.misc.arcstats.size'])) {
                 $arc_size = $mem['kstat.zfs.misc.arcstats.size'];
