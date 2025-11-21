@@ -59,6 +59,10 @@
 /usr/local/etc/opnsense-beep.d/start
 /usr/local/etc/opnsense-beep.d/stop
 /usr/local/etc/opnsense-update.conf
+/usr/local/etc/pkg/fingerprints/OPNsense/revoked/opnsense-update.walker.earth.20230827
+/usr/local/etc/pkg/fingerprints/OPNsense/revoked/opnsense-update.walker.earth.20240113
+/usr/local/etc/pkg/fingerprints/OPNsense/revoked/opnsense-update.walker.earth.20240618
+/usr/local/etc/pkg/fingerprints/OPNsense/revoked/opnsense-update.walker.earth.20241220
 /usr/local/etc/pkg/fingerprints/OPNsense/revoked/pkg.opnsense.org.20150402
 /usr/local/etc/pkg/fingerprints/OPNsense/revoked/pkg.opnsense.org.20160104
 /usr/local/etc/pkg/fingerprints/OPNsense/revoked/pkg.opnsense.org.20160630
@@ -79,6 +83,8 @@
 /usr/local/etc/pkg/fingerprints/OPNsense/revoked/pkg.opnsense.org.20240105
 /usr/local/etc/pkg/fingerprints/OPNsense/revoked/pkg.opnsense.org.20240611
 /usr/local/etc/pkg/fingerprints/OPNsense/revoked/pkg.opnsense.org.20241217
+/usr/local/etc/pkg/fingerprints/OPNsense/trusted/opnsense-update.walker.earth.20250717
+/usr/local/etc/pkg/fingerprints/OPNsense/trusted/opnsense-update.walker.earth.20260127
 /usr/local/etc/pkg/fingerprints/OPNsense/trusted/pkg.opnsense.org.20250710
 /usr/local/etc/pkg/fingerprints/OPNsense/trusted/pkg.opnsense.org.20260120
 /usr/local/etc/rc
