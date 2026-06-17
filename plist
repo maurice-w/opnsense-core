@@ -80,6 +80,8 @@
 /usr/local/etc/pkg/fingerprints/OPNsense/revoked/pkg.opnsense.org.20240611
 /usr/local/etc/pkg/fingerprints/OPNsense/revoked/pkg.opnsense.org.20241217
 /usr/local/etc/pkg/fingerprints/OPNsense/revoked/pkg.opnsense.org.20250710
+/usr/local/etc/pkg/fingerprints/OPNsense/trusted/opnsense.mono.si.20260305
+/usr/local/etc/pkg/fingerprints/OPNsense/trusted/opnsense.mono.si.20260716
 /usr/local/etc/pkg/fingerprints/OPNsense/trusted/pkg.opnsense.org.20260120
 /usr/local/etc/pkg/fingerprints/OPNsense/trusted/pkg.opnsense.org.20260608
 /usr/local/etc/rc
@@ -2576,5 +2578,6 @@
 @sample /usr/local/etc/bogonsv6.sample
 @sample /usr/local/etc/config.xml.sample
 @shadow /usr/local/etc/pkg/repos/FreeBSD.conf.sample
+@shadow /usr/local/etc/pkg/repos/MonoGateway.conf.sample
 @shadow /usr/local/etc/pkg/repos/OPNsense-aux.conf.sample
 @shadow /usr/local/etc/pkg/repos/OPNsense.conf.sample
